@@ -1,0 +1,23 @@
+{
+  "name": "ts-loader-resolver-overhead-repro",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Call-volume-calibrated reproduction for ts-loader's disabled resolver overhead",
+  "license": "MIT",
+  "scripts": {
+    "generate": "node generate-fixture.mjs",
+    "benchmark": "node benchmark.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "24.1.0",
+    "portal-vue": "3.0.0",
+    "swiper": "14.2.0",
+    "ts-loader": "9.6.2",
+    "type-fest": "4.41.0",
+    "typescript": "6.0.3",
+    "undici-types": "7.8.0",
+    "vue": "3.5.45",
+    "vue3-carousel": "0.17.0",
+    "webpack": "5.112.2"
+  }
+}
